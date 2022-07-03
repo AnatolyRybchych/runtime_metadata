@@ -17,8 +17,6 @@ void print_struct_fields(matadata_struct_t symbol, int tabs){
 }
 
 int main(int argc, char const *argv[]){
-    metadata_t meta = metadata();
-
     matadata_primitive_t int_primitive = metadata_decl_primitive("int", sizeof(int));
     matadata_primitive_t float_primitive = metadata_decl_primitive("float", sizeof(float));
 

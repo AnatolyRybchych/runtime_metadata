@@ -8,7 +8,7 @@ This program is built by Equation Solution <http://www.Equation.com>.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 03 19:37:26 2022
+# Make data base, printed on Sun Jul 03 19:48:43 2022
 
 # Variables
 
@@ -61,9 +61,9 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-af5318a6-c0c5-4cf6-8c9a-7f550484dc43-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5056c82d-c1f0-4397-9de5-2307ece6bc50-sock
 # environment
-VSCODE_CWD = C:\Users\Velichaisyi\Desktop
+VSCODE_CWD = C:\Users\Velichaisyi\Desktop\runtime_metadata
 # environment
 OPENCV_DIR = C:\opencv\build\
 # default
@@ -76,7 +76,8 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 PROCESSOR_ARCHITECTURE = AMD64
 # environment
 USERPROFILE = C:\Users\Velichaisyi
-# environment
+# environ 
+ment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 VSCODE_LOG_STACK = false
@@ -89,7 +90,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8408_HPDRDFJALKETXAPD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4484_USPXYVFXXSWWROKG
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -131,7 +132,8 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-QT_DEVICE_PIXEL_RATIO = auto
+QT_DEVICE_PIXEL_RATIO =  
+auto
 # default
 MAKE_VERSION := 4.2
 # makefile
@@ -151,7 +153,8 @@ MAKE_COMMAND := make.exe
 # automatic
 *F = $(notdir $*)
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Fam 
+ily 6 Model 142 Stepping 9, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
@@ -195,7 +198,8 @@ SUFFIXES :=
 # environment
 SYSTEMDRIVE = C:
 # environment
-SESSIONNAME = Console
+SESSIONNAME = Co 
+nsole
 # environment
 PROCESSOR_REVISION = 8e09
 # default
@@ -205,7 +209,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 8408
+VSCODE_PID = 4484
 # environment
 USERDOMAIN_ROAMINGPROFILE = HOME-PC
 # variable set hash-table stats:
@@ -217,7 +221,7 @@ USERDOMAIN_ROAMINGPROFILE = HOME-PC
 
 # Directories
 
-# . (key c:/Users/Velichaisyi/Desktop/runtime_metadata, mtime 1656813275ll): 9 files, no impossibilities.
+# . (key c:/Users/Velichaisyi/Desktop/runtime_metadata, mtime 1656866594ll): 9 files, no impossibilities.
 # src (key c:/Users/Velichaisyi/Desktop/runtime_metadata/src, mtime 1656804984ll): No files, no impossibilities so far.
 
 # 9 files, no impossibilities in 2 directories.
@@ -298,6 +302,6 @@ obj/metadata_symbol.o:
 # strcache performance: lookups = 26 / hit rate = 26%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Sun Jul 03 19:37:26 2022
+# Finished Make data base on Sun Jul 03 19:48:43 2022
 
  

@@ -1,8 +1,11 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/Velichaisyi/Desktop/runtime_metadata'
 gcc -c -Iinclude/ -o obj/main.o src/main.c
+ 
 gcc -c -Iinclude/ -o obj/metadata.o src/metadata.c
+ 
 gcc -c -Iinclude/ -o obj/metadata_symbol.o src/metadata_symbol.c
+ 
 gcc -Iinclude/ -o run.exe obj/main.o obj/metadata.o obj/metadata_symbol.o
 make.exe: Leaving directory 'c:/Users/Velichaisyi/Desktop/runtime_metadata'
  
