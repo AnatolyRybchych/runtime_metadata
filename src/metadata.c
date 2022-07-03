@@ -38,9 +38,6 @@ const char *metdata_get_symbol_type_string(metadata_symbol_type type){
     {
         case METADATA_TYPE_PRIMITIVE: return "primitive";
         case METADATA_TYPE_STRUCT: return "struct";
-        case METADATA_TYPE_FUNCTION: return "function";
-        case METADATA_TYPE_OBJECT: return "object";
-        case METADATA_TYPE_METHOD: return "method";
         default: return "undefined";
     }
 }

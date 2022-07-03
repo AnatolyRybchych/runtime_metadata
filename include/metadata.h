@@ -14,11 +14,8 @@ typedef const struct __matadata_symbol_t* matadata_primitive_t;
 
 typedef int metadata_symbol_type;
 enum metadata_symbol_type{
-    METADATA_TYPE_FUNCTION,
     METADATA_TYPE_STRUCT,
     METADATA_TYPE_PRIMITIVE,
-    METADATA_TYPE_OBJECT,
-    METADATA_TYPE_METHOD,
 };
 
 metadata_t metadata(void);
